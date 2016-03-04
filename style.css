@@ -1,0 +1,180 @@
+h1 {
+	color: red;
+	font-size: 75;
+	border-bottom: 2px;
+	margin-bottom: 50px;
+	outline-style: ridge;
+	text-shadow: 2px 2px black;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+h2 {
+	color: white;
+	width: 303px;
+	height: 101px;
+	float: left;
+
+}
+
+h3 {
+	color: white;
+	font-size: 25;
+}
+
+h4 {
+	color: black;
+	font-size: 25; 
+}
+
+td {
+	color: red;
+}
+
+body {
+	font-family: "Lucida Grande", arial, sans-serif;
+	
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	width: 100px;
+	height: 50px;
+	float: left;
+	color: #191919;
+	text-align: center;
+	overflow: hidden;
+}
+
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+p {
+	padding: 0px 5px;
+}
+
+    .subtext{
+    	padding-top: 15px;
+    }
+
+    .background-image{
+    	background-image: url(IMG_3899.JPG);
+    }
+
+
+
+    @-webkit-keyframes rotate {
+    0% {
+        -webkit-transform:translate(100px, 100px) rotate(0deg) translate(-100px, -100px) rotate(0deg);
+        background-color:black;
+    }  
+  13% {
+        -webkit-transform:translate(100px, 100px) rotate(45deg) translate(-100px, -100px) rotate(-45deg);
+  }
+  25% {
+      -webkit-transform:translate(100px, 100px) rotate(90deg) translate(-100px, -100px) rotate(-90deg);
+  }
+  38% {
+      -webkit-transform:translate(100px, 100px) rotate(135deg) translate(-100px, -100px) rotate(0deg);
+  }
+  50% {
+      -webkit-transform:translate(100px, 100px) rotate(180deg) translate(-100px, -100px) rotate(-180deg);
+  }
+  63% {
+      -webkit-transform:translate(100px, 100px) rotate(225deg) translate(-100px, -100px) rotate(225deg);
+  }
+  75% {
+      -webkit-transform:translate(100px, 100px) rotate(270deg) translate(-100px, -100px) rotate(-270deg);
+  }
+  88% {
+      -webkit-transform:translate(100px, 100px) rotate(315deg) translate(-100px, -100px) rotate(315deg);
+  }
+    100% {
+        -webkit-transform:translate(100px, 100px) rotate(360deg) translate(-100px, -100px) rotate(-360deg);
+    }
+}
+
+/*my circle*/
+#circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: black;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-name:"rotate";
+    -webkit-animation-iteration-count: infinite;
+    position:absolute;
+    left:13%;
+    top:90%; 
+    
+}
+.hands{
+	background-image: url(https://images.rapgenius.com/d201a87462367968688d98940c8d3da5.220x230x1.png);
+	background-size: 100%;
+}
+
+#button {
+  width:130px;
+  background:teal;
+}
+
+.rotator {
+  width: 150px;
+  height: 125px;
+  margin: 20px;
+  background-color:teal;
+}
+.transition {
+  -webkit-transition: all 1000s linear;
+  -moz-transition: all 1000s linear;
+  -ms-transition: all 1000s linear;
+  -o-transition: all 1000s linear;
+  transition: all 1000s linear;
+}
+.translateAnimationClass { 
+  -webkit-transform: rotateX(43200deg) rotateY(14400deg);
+  -moz-transform: rotateX(43200deg) rotateY(14400deg);
+  -ms-transform: rotateX(43200deg) rotateY(14400deg);
+  -o-transform: rotateX(43200deg) rotateY(14400deg);
+  transform: rotateX(43200deg) rotateY(14400deg); 
+}
+.animation {
+  -webkit-animation: rotator 25s linear infinite;
+  -moz-animation: rotator 25s linear infinite;
+  -ms-animation: rotator 25s linear infinite;
+  -o-animation: rotator 25s linear infinite;
+  animation: rotator 25s linear infinite;
+}
+
+@-webkit-keyframes rotator {
+  0%   { -webkit-transform: rotateX(0deg)    rotateY(0deg);    }
+  100% { -webkit-transform: rotateX(1080deg) rotateY(360deg);  }
+}
+@-moz-keyframes rotator {
+  0%   { -moz-transform: rotateX(0deg)    rotateY(0deg);    }
+  100% { -moz-transform: rotateX(1080deg) rotateY(360deg);  }
+}
+@-ms-keyframes rotator {
+  0%   { -ms-transform: rotateX(0deg)    rotateY(0deg);    }
+  100% { -ms-transform: rotateX(1080deg) rotateY(360deg);  }
+}
+@-o-keyframes rotator {
+  0%   { -o-transform: rotateX(0deg)    rotateY(0deg);    }
+  100% { -o-transform: rotateX(1080deg) rotateY(360deg);  }
+}
+@keyframes rotator {
+  0%   { transform: rotateX(0deg)    rotateY(0deg);    }
+  100% { transform: rotateX(1080deg) rotateY(360deg);  }
+}
+.mixtape {
+	background-image: url(https://pbs.twimg.com/profile_images/690312912028733440/jOrGWx2f.jpg);
+	background-size: 100%;
+}
